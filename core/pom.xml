@@ -411,7 +411,7 @@ THE SOFTWARE.
     <dependency><!-- Jenkins core doesn't use it but HUDSON-3811 requires us to put it. -->
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
-      <version>2.5</version>
+      <version>2.5.6.SEC03</version>
     </dependency>
     <dependency>
       <groupId>xpp3</groupId>
@@ -712,7 +712,7 @@ THE SOFTWARE.
             <manifest>
               <mainClass>hudson.Main</mainClass>
               <addClasspath>true</addClasspath>
-              <classpathPrefix />
+              <classpathPrefix/>
             </manifest>
           </archive>
         </configuration>
