@@ -401,7 +401,7 @@ THE SOFTWARE.
       -->
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>2.5</version>
+      <version>2.5.6.SEC03</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -712,7 +712,7 @@ THE SOFTWARE.
             <manifest>
               <mainClass>hudson.Main</mainClass>
               <addClasspath>true</addClasspath>
-              <classpathPrefix />
+              <classpathPrefix/>
             </manifest>
           </archive>
         </configuration>
