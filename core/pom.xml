@@ -381,12 +381,12 @@ THE SOFTWARE.
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-all</artifactId>
-      <version>1.8.5</version>
+      <version>2.4.7</version>
     </dependency>
     <dependency><!-- groovy shell uses this but it doesn't declare this dependency -->
       <groupId>jline</groupId>
       <artifactId>jline</artifactId>
-      <version>0.9.94</version>
+      <version>2.11</version>
       <scope>compile</scope>
     </dependency>
     <dependency><!-- groovy shell uses this but it doesn't declare this dependency -->
@@ -712,7 +712,7 @@ THE SOFTWARE.
             <manifest>
               <mainClass>hudson.Main</mainClass>
               <addClasspath>true</addClasspath>
-              <classpathPrefix />
+              <classpathPrefix/>
             </manifest>
           </archive>
         </configuration>
