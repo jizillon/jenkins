@@ -42,11 +42,11 @@ THE SOFTWARE.
 
   <properties>
     <mavenInterceptorsVersion>1.2</mavenInterceptorsVersion>
-    <mavenVersion>3.0.4</mavenVersion>
+    <mavenVersion>3.5.0</mavenVersion>
     <maven.version>${mavenVersion}</maven.version>
     <aetherVersion>1.13.1</aetherVersion>
-    <sisuInjectVersion>2.3.0</sisuInjectVersion>
-    <wagonVersion>2.2</wagonVersion>
+    <sisuInjectVersion>2.6.0</sisuInjectVersion>
+    <wagonVersion>2.12</wagonVersion>
   </properties>
 
   <issueManagement>
@@ -347,7 +347,7 @@ THE SOFTWARE.
     <dependency>
       <groupId>net.sourceforge.nekohtml</groupId>
       <artifactId>nekohtml</artifactId>
-      <version>1.9.13</version>
+      <version>1.9.18</version>
     </dependency>
 
     <dependency>
